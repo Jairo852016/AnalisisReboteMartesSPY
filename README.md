@@ -1,4 +1,4 @@
-# Rebote Martes
+# Rebote de Martes
 
 Analisis de la estrategia Martes de Rebotes del ETF SPY este analisis se realizo tomando los datos desde el año 2014 al año 2020
 
@@ -6,10 +6,11 @@ Estrategia tomada del Club de Inversionistas y de un gran mentor Hyenuk Chu http
 
 El detalle de cada analisis y tratamiento de detos se encuentra en los notebooks que se encuentran en este proyecto. 
 
-1.0 LimpiezaDatos.ipynb: En este archivo se encontrara un detalle de todos procesos realizados para definir la base de datos que se analiza
-2.0 AnalisisMartes.ipynb: En este archivo se detalla un conjunto de analisis de los datos enfocandos al movimiento del precio de 
-                        los dias Martes, relacion con variacion diaria, ATR, RSI, EMA8, EMA21, MA50, MA200
-3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
+
+-1.0 LimpiezaDatos.ipynb: En este archivo se encontrara un detalle de todos procesos realizados para definir la base de datos que se analiza
+-2.0 AnalisisMartes.ipynb: En este archivo se detalla un conjunto de analisis de los datos enfocandos al movimiento del precio de 
+                            los dias Martes, relacion con variacion diaria, ATR, RSI, EMA8, EMA21, MA50, MA200
+-3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
                         analizado, se estudia las combinaciones que tiene los dias anteriores y los porcentajes para que un dia Martes sea positivo.
 
 El analisis dio como resultado que el 56,39% de los dias Martes son positivos (181 dias) y el 43.61% son negativos (140 dias), de los cuales se resume de la siguiente manera:
@@ -46,18 +47,25 @@ Cuando los dias Martes son positivo :
 CONCLUCION
 
 El analisis realizado nos dio como resultado que el 56.39% de los dias Martes son positivos, las caracteristicas de estos dias fueron:
-            - El 82% el precio estuvo sobre EMA8
-            - El 73% la EMA8 estuvo sobre EMA21
-            - El 73% la EMA21 estuvo sobre MA50
-            - El 80% la MA50 estuvo sobre MA200
-            - El 59% la %Variacion estuvo entre 0 a 0.5%
-            - El 84% el ATR entre 1 a 4.5
-            - El 79% el RSI estuvo 47 a 72
-        La Combinacion del Viernes y Lunes anteriores al Martes :
-             Vienes Positivo y Lunes positivo   35.78%
-             Viernes Negativo y Lunes positivo  20.59%
-             Viernes Positivo y Lunes negativo  22.06%
-             Viernes Negativo y Lunes negativo  21.57% 
+- El 82% el precio estuvo sobre EMA8
+
+- El 73% la EMA8 estuvo sobre EMA21
+
+- El 73% la EMA21 estuvo sobre MA50
+
+- El 80% la MA50 estuvo sobre MA200
+
+- El 59% la %Variacion estuvo entre 0 a 0.5%
+
+- El 84% el ATR entre 1 a 4.5
+
+- El 79% el RSI estuvo 47 a 72
+
+La Combinacion del Viernes y Lunes anteriores al Martes :
+-Vienes Positivo y Lunes positivo   35.78%
+-Viernes Negativo y Lunes positivo  20.59%
+-Viernes Positivo y Lunes negativo  22.06%
+-Viernes Negativo y Lunes negativo  21.57% 
 
 RECOMENDACIONES
 

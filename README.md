@@ -8,40 +8,41 @@ El detalle de cada analisis y tratamiento de detos se encuentra en los notebooks
 
 
 -1.0 LimpiezaDatos.ipynb: En este archivo se encontrara un detalle de todos procesos realizados para definir la base de datos que se analiza
+
 -2.0 AnalisisMartes.ipynb: En este archivo se detalla un conjunto de analisis de los datos enfocandos al movimiento del precio de 
                             los dias Martes, relacion con variacion diaria, ATR, RSI, EMA8, EMA21, MA50, MA200
+
 -3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
                         analizado, se estudia las combinaciones que tiene los dias anteriores y los porcentajes para que un dia Martes sea positivo.
 
 El analisis dio como resultado que el 56,39% de los dias Martes son positivos (181 dias) y el 43.61% son negativos (140 dias), de los cuales se resume de la siguiente manera:
--Precio/EMA8:
-en los dias positivos el 82.32%  el precio estuvo sobre la EMA8 y 17.68% el precio estuvo bajo la EMA8
 
--EMA8/EMA21
-en los dias positivos el 72.93%  la EMA8 estuvo sobre la EMA21 y 27.07%  la EMA8 estuvo bajo la EMA21
+-Precio/EMA8: en los dias positivos el 82.32%  el precio estuvo sobre la EMA8 y 17.68% el precio estuvo bajo la EMA8
+
+-EMA8/EMA21: en los dias positivos el 72.93%  la EMA8 estuvo sobre la EMA21 y 27.07%  la EMA8 estuvo bajo la EMA21
                     
--EMA21/MA50
-en los dias positivos el 72.93%  la EMA21 estuvo sobre la MA50 y 27.07% la EMA21 estuvo bajo la MA50
+-EMA21/MA50: en los dias positivos el 72.93%  la EMA21 estuvo sobre la MA50 y 27.07% la EMA21 estuvo bajo la MA50
                     
--MA50/MA200
-en los dias positivos el 80.11%  la MA50 estuvo sobre la MA200 y 19.89% la EMA50 estuvo bajo la MA200
+-MA50/MA200: en los dias positivos el 80.11%  la MA50 estuvo sobre la MA200 y 19.89% la EMA50 estuvo bajo la MA200
                     
--%VariacionDiaria
-en los dias positivos el 59.12% el %Variacion esta en el rango de 0 a 0.5% y el 28.18% en el rango de 0.5% a 1%
+-%VariacionDiaria: en los dias positivos el 59.12% el %Variacion esta en el rango de 0 a 0.5% y el 28.18% en el rango de 0.5% a 1%
                     
--ATR
-en los dias positivos el 83.98% el ATR estuvo en el rango de 1 a 4.5 y 12.15% en el rango de 4.5 a 7
+-ATR: en los dias positivos el 83.98% el ATR estuvo en el rango de 1 a 4.5 y 12.15% en el rango de 4.5 a 7
                     
--RSI
-en los dias positivos el 39.78% el RSI estuvo en el rango de 60 a 72 y 38.12% en el rango de 47 a 60
+-RSI: en los dias positivos el 39.78% el RSI estuvo en el rango de 60 a 72 y 38.12% en el rango de 47 a 60
                     
 
 Generamos una tabla pivote para analizar la combinacion del dia Viernes y Lunes anteriores al Martes 
 Cuando los dias Martes son positivo : 
+
 -Vienes Positivo y Lunes positivo   35.78%
+
 -Viernes Negativo y Lunes positivo  20.59%
+
 -Viernes Positivo y Lunes negativo  22.06%
+
 -Viernes Negativo y Lunes negativo  21.57%
+
 
 
 CONCLUCION
@@ -62,9 +63,13 @@ El analisis realizado nos dio como resultado que el 56.39% de los dias Martes so
 - El 79% el RSI estuvo 47 a 72
 
 La Combinacion del Viernes y Lunes anteriores al Martes :
+
 -Vienes Positivo y Lunes positivo   35.78%
+
 -Viernes Negativo y Lunes positivo  20.59%
+
 -Viernes Positivo y Lunes negativo  22.06%
+
 -Viernes Negativo y Lunes negativo  21.57% 
 
 RECOMENDACIONES

@@ -84,6 +84,7 @@ RECOMENDACIONES
 
 - Realizar analisis de los contratos de opciones CALL en los dias Martes.
 
+- Nunca olvides de administrar tu capital antes de operar.
       
   
 ## Installation guide

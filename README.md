@@ -1,15 +1,16 @@
 # Rebote Martes
 
 Analisis de la estrategia Martes de Rebotes del ETF SPY este analisis se realizo tomando los datos desde el año 2014 al año 2020
+
 Estrategia tomada del Club de Inversionistas y de un gran mentor Hyenuk Chu https://www.hyenukchu.com/ https://chu.mx/
 
 El detalle de cada analisis y tratamiento de detos se encuentra en los notebooks que se encuentran en este proyecto. 
 
-    1.0 LimpiezaDatos.ipynb: En este archivo se encontrara un detalle de todos procesos realizados para definir la base de datos que se analiza
-    2.0 AnalisisMartes.ipynb: En este archivo se detalla un conjunto de analisis de los datos enfocandos al movimiento del precio de 
-                            los dias Martes, relacion con variacion diaria, ATR, RSI, EMA8, EMA21, MA50, MA200
-    3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
-                            analizado, se estudia las combinaciones que tiene los dias anteriores y los porcentajes para que un dia Martes sea positivo.
+1.0 LimpiezaDatos.ipynb: En este archivo se encontrara un detalle de todos procesos realizados para definir la base de datos que se analiza
+2.0 AnalisisMartes.ipynb: En este archivo se detalla un conjunto de analisis de los datos enfocandos al movimiento del precio de 
+                        los dias Martes, relacion con variacion diaria, ATR, RSI, EMA8, EMA21, MA50, MA200
+3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
+                        analizado, se estudia las combinaciones que tiene los dias anteriores y los porcentajes para que un dia Martes sea positivo.
 
     El analisis dio como resultado que el 56,39% de los dias Martes son positivos (181 dias) y el 43.61% son negativos (140 dias), de los cuales se resume de la siguiente manera:
         Precio/EMA8:

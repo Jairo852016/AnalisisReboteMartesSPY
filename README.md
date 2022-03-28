@@ -12,7 +12,7 @@ El detalle de cada analisis y tratamiento de detos se encuentra en los notebooks
 3.0 AnalisisVLM.ipynb:  En este archivo se detalla el conjunto de analisis para la combinacion de los dias Viernes y Lunes antes del Martes
                         analizado, se estudia las combinaciones que tiene los dias anteriores y los porcentajes para que un dia Martes sea positivo.
 
-    El analisis dio como resultado que el 56,39% de los dias Martes son positivos (181 dias) y el 43.61% son negativos (140 dias), de los cuales se resume de la siguiente manera:
+El analisis dio como resultado que el 56,39% de los dias Martes son positivos (181 dias) y el 43.61% son negativos (140 dias), de los cuales se resume de la siguiente manera:
         Precio/EMA8:
                     - en los dias positivos el 82.32%  el precio estuvo sobre la EMA8 y 17.68% el precio estuvo bajo la EMA8
 
@@ -36,11 +36,12 @@ El detalle de cada analisis y tratamiento de detos se encuentra en los notebooks
                     
 
 Generamos una tabla pivote para analizar la combinacion del dia Viernes y Lunes anteriores al Martes 
-    Cuando los dias Martes son positivo : 
-    Vienes Positivo y Lunes positivo   35.78%
-    Viernes Negativo y Lunes positivo  20.59%
-    Viernes Positivo y Lunes negativo  22.06%
-    Viernes Negativo y Lunes negativo  21.57%
+
+Cuando los dias Martes son positivo : 
+Vienes Positivo y Lunes positivo   35.78%
+Viernes Negativo y Lunes positivo  20.59%
+Viernes Positivo y Lunes negativo  22.06%
+Viernes Negativo y Lunes negativo  21.57%
 
 
 CONCLUCION
